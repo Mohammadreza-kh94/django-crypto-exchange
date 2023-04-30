@@ -6,6 +6,6 @@ do
     sleep 5
 done
 
-gunicorn --bind :8000 BookitApt.wsgi:application --log-level error
+gunicorn --bind :8000 crypto_exchange_app.wsgi:application --log-level error
 
 
